@@ -4,10 +4,10 @@ public class Method_Recursion {
     {
         if(n <= 1)
         {
-            return 1;
+            return 1;   //base case : stop here
         }
 
-        return n * factorial(n-1);
+        return n * factorial(n-1);  // recursive call
     }
 
     public static void main(String args[])
